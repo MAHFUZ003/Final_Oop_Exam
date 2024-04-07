@@ -17,6 +17,8 @@ def main():
     MyBank.user_available_balance('Fahim')
 #Transfer Money
     MyBank.Transfer_money('Fahim','Rahim',500)
+#check all the transection 
+    Fahim.trans_histry()
 #take loan
     MyBank.Take_loan('Fahim',2000)
 
